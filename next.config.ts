@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output:"export",
+  reactStrictMode:true,
+  basePath:"/YatsenkoMaksym.github.io",
+  assetPrefix:"/YatsenkoMaksym.github.io/"
 };
 
 export default nextConfig;
