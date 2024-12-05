@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio website :&rpar;
+I wanted to create a minimalistic Portfolio website for myself.
+With no expirience in comercial web development and design, I did my best with coming up with everything by myself.
 
-## Getting Started
+## Technologies that I've used
+* The core of this webside - next.js with TS. It's robust and scalable (idk why I need ts for such a small project. A habit ig).
+* Styling and some of the animations - tailwindcss. It's easy to understand, and with tailwind-merges' cn function, you can even make it easy-to-read (didn't use this trick that often).
+* Won't hide it, I've used "Infinite Moving Cards" from Aceternity UI.
+* Animations - motion (framer-motion). I'd love to work more with it, it's like a swiss knife for animations.
 
-First, run the development server:
+## Why hire me 👉👈
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. I will do my best to exceed your expectations
+2. I have quite an impressive knowledge on css tricks and design ideas.
+3. I am motivated to get a job and keep it for as long as I can.
+4. Please 🥹.
