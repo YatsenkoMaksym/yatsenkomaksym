@@ -1,5 +1,7 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 /** @type {import('tailwindcss').Config} */
-import tlwnd from "tailwindcss-animate";
+
+const tailwindcssAnimate = require('tailwindcss-animate');
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -87,5 +89,5 @@ module.exports = {
       },
     },
   },
-  plugins: [tlwnd],
+  plugins: [tailwindcssAnimate],
 };
