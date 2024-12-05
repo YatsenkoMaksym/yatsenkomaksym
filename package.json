@@ -2,15 +2,13 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yatsenkomaksym.github.io/",
+  "homepage": "https://yatsenkomaksym.github.io/YatsenkoMaksym.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d out"
+    "export": "next export"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
