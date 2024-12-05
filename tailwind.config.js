@@ -17,14 +17,18 @@ module.exports = {
       animation: {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
-          move: "move 5s linear infinite",
-          slowSpin:"spin 2.5s linear infinite",
+        move: "move 5s linear infinite",
+        slowSpin: "slowSpin 10s linear infinite", // Set the duration to 10 seconds
       },
       keyframes: {
         scroll: {
           to: {
             transform: "translate(calc(-50% - 0.5rem))",
           },
+        },
+        slowSpin: {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(360deg)" },
         },
         move: {
           "0%": { transform: "translateX(-200px)" },
@@ -36,16 +40,10 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      backgroundImage:{
-        viebonConic:"var(--viebon-conic)",
-        viebonRadia:"var(--viebon-radial)",
-        viebon:"var(--viebon)",
+      backgroundImage: {
+        viebon: "var(--viebon)",
       },
       colors: {
-        brand:{
-          DEFAULT:"var(--brand)",
-          foreground:"var(--brand-foreground)"
-        },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
