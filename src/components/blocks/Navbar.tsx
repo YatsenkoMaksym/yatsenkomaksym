@@ -44,7 +44,7 @@ export default function Navbar() {
                 setTheme("dark");
               }}
             >
-              <Sun className="size-4" />
+              <Sun className="size-4 bg-foreground" />
             </button>
           )}
           {theme === "dark" && (
@@ -53,7 +53,7 @@ export default function Navbar() {
                 setTheme("light");
               }}
             >
-              <Moon className="size-4" />
+              <Moon className="size-4 bg-foreground" />
             </button>
           )}
         </motion.li>
