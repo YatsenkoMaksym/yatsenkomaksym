@@ -2,7 +2,7 @@
 import { useTheme } from "next-themes";
 import { motion } from "motion/react";
 import Link from "next/link";
-import { Moon, Sun } from "lucide-react";
+import { MoonStarIcon, SunIcon } from "lucide-react";
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
 
@@ -44,7 +44,7 @@ export default function Navbar() {
                 setTheme("dark");
               }}
             >
-              <Sun className="size-4 bg-foreground" />
+              <SunIcon className="size-4 bg-foreground"/>
             </button>
           )}
           {theme === "dark" && (
@@ -53,7 +53,7 @@ export default function Navbar() {
                 setTheme("light");
               }}
             >
-              <Moon className="size-4 bg-foreground" />
+              <MoonStarIcon className="size-4 bg-foreground" />
             </button>
           )}
         </motion.li>
