@@ -38,6 +38,8 @@ export default function Navbar() {
           whileHover="hoverIcon"
           whileTap="tapIcon"
         >
+          <SunIcon/>
+          {theme === "light"?"no" :"no"}
           {theme === "light" && (
             <button
               onClick={() => {
