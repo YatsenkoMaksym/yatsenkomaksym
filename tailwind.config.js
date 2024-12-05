@@ -1,6 +1,7 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
 /** @type {import('tailwindcss').Config} */
-import {tailwindcssAnimate} from "tailwind-merge"
+
+/* eslint-disable @typescript-eslint/no-require-imports */
+const tailwindcssAnimate = require('tailwindcss-animate');
 module.exports = {
   darkMode: ["class"],
   content: [
