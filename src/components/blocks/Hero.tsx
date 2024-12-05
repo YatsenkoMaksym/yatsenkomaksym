@@ -19,8 +19,8 @@ export default function Hero() {
           </h1>
           <p>It&apos;s my porfolio website</p>
           <p>
-            And i just love some{" "}
-            <span className="font-semibold italic">Diseños bonitos</span>
+            And I just love some{" "}
+            <span className="font-semibold italic text-center sm:text-start">Minimalistic designs</span>
           </p>
           <ContactMe />
         </div>

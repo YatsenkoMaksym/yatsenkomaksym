@@ -41,7 +41,7 @@ export default function Footer() {
       <div className="row-start-2 flex flex-col justify-center items-center">
         <h3>My projects</h3>
         <ul>
-            <li className="text-center"><Link href="http://localhost:3000/">This website ;)</Link></li>
+            <li className="text-center"><Link href="https://yatsenkomaksym.vercel.app/">This website ;)</Link></li>
             <li>There will be more for sure <HandMetal className="size-4 ml-1 inline"/></li>
         </ul>
       </div>
