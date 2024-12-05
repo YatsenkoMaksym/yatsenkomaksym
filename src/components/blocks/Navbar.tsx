@@ -44,7 +44,7 @@ export default function Navbar() {
                 setTheme("dark");
               }}
             >
-              <SunIcon className="size-4 bg-foreground"/>
+              <SunIcon id="SunIcon" className="size-4 bg-foreground"/>
             </button>
           )}
           {theme === "dark" && (
@@ -53,7 +53,7 @@ export default function Navbar() {
                 setTheme("light");
               }}
             >
-              <MoonStarIcon className="size-4 bg-foreground" />
+              <MoonStarIcon id="MoonStarIcon" className="size-4 bg-foreground" />
             </button>
           )}
         </motion.li>
