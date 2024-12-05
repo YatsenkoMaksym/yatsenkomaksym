@@ -5,7 +5,7 @@ import Link from "next/link";
 import { MoonStarIcon, SunIcon } from "lucide-react";
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
-
+  setTheme("dark")
   const liVariants = {
     hover: {
       scale: 1.1,
@@ -38,7 +38,7 @@ export default function Navbar() {
           whileHover="hoverIcon"
           whileTap="tapIcon"
         >
-            <button onClick={()=>{
+            {/* <button onClick={()=>{
               if (theme==="light"){
                 setTheme("dark")
               }else if (theme ==="dark"){
@@ -49,7 +49,7 @@ export default function Navbar() {
             }}>
 
           <SunIcon/>
-          </button>
+          </button> */}
           {theme === "light" && (
             <button
               onClick={() => {
