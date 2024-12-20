@@ -17,18 +17,18 @@ body {
 }
 @layer base {
   :root {
-    --viebon-conic: conic-gradient(
+    --grad-conic: conic-gradient(
       from var(--angle),
       var(--brand),
       var(--brand-foreground),
       var(--brand)
     );
-    --viebon-radial: radial-gradient(
+    --grad-radial: radial-gradient(
       circle,
       rgba(34, 255, 255, 1) 0%,
       rgba(255, 255, 255, 0.6459034297312676) 100%
     );
-    --viebon: linear-gradient(to right, #4776e6, #8e54e9);
+    --grad: linear-gradient(to right, #4776e6, #8e54e9);
     --brand: #4776e6;
     --brand-foreground: #8e54e9;
     --background: 0 0% 100%;
@@ -59,19 +59,19 @@ body {
   }
   /*  */
   .dark {
-    --viebon-conic: conic-gradient(
+    --grad-conic: conic-gradient(
       from var(--angle),
       var(--brand),
       var(--brand-foreground),
       var(--brand),
       red
     );
-    --viebon-radial: radial-gradient(
+    --grad-radial: radial-gradient(
       circle,
       rgba(63, 229, 255, 1) 8%,
       rgba(255, 255, 255, 0.1) 89%
     );
-    --viebon: linear-gradient(to right, #9400d3, #4b0082);
+    --grad: linear-gradient(to right, #9400d3, #4b0082);
     --brand: #9400d3;
     --brand-foreground: #4b0082;
     --background: 222.2 84% 4.9%;
@@ -112,6 +112,7 @@ body {
 .accent {
   position: relative;
 }
+
 .accent::after,
 .accent::before {
   content: "";

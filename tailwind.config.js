@@ -41,7 +41,7 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       backgroundImage: {
-        viebon: "var(--viebon)",
+        grad: "var(--grad)",
       },
       colors: {
         background: "hsl(var(--background))",
