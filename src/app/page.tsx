@@ -6,16 +6,15 @@ import Tech from "@/components/blocks/Tech";
 
 export default function Home() {
   return (
-    <main className="min-h-screen items-center justify-items-center overflow-x-hidden p-8 py-16 font-[family-name:var(--font-geist-sans)]">
+    <main className="min-h-screen items-center justify-items-evenly overflow-x-hidden p-8 py-16 font-[family-name:var(--font-geist-sans)]">
      <Hero/> 
       <InfiniteMovingCards
         className="my-10"
         items={cardsitems}
         direction="right"
-        speed="fast"
+        speed="slow"
       />
      <Tech/> 
-      <Footer />
     </main>
   );
 }

@@ -1,16 +1,12 @@
 import Section from "./Section";
 import Image from "next/image";
 import Yatsenko from "@/../public/YatsenkoMaksym.jpeg";
-import { cn } from "@/lib/utils";
 import ContactMe from "../ContactMe";
 export default function Hero() {
   return (
     <Section
       id="main"
-      className={cn(
-        "accent duration-150", //! after
-        "grid min-h-[40rem] place-items-stretch bg-background text-foreground",
-      )}
+      className="accent duration-150 grid min-h-[40rem] place-items-stretch bg-background text-foreground"
     >
       <article className="flex h-full flex-col items-center justify-evenly gap-5 p-5 sm:flex-row">
         <div className="flex flex-col items-center justify-center sm:items-start sm:justify-normal">

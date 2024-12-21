@@ -23,7 +23,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="outliner sticky top-5 z-50 w-1/2 min-w-fit place-items-center place-self-center overflow-hidden rounded-2xl bg-background px-8 py-5 opacity-80 sm:w-1/3">
+    <nav className="outliner sticky top-12 left-20 z-50 w-1/2 min-w-fit place-self-center place-items-center overflow-hidden rounded-2xl bg-background px-8 py-5 opacity-80 sm:w-1/3">
       <motion.ul className="flex flex-row gap-16">
         <motion.li variants={liVariants} whileHover="hover" whileTap="tap">
           <Link href="#main">Main</Link>
