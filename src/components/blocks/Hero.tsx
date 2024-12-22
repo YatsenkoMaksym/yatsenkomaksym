@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <Section
       id="main"
-      className="accent duration-150 grid min-h-[40rem] place-items-stretch bg-background text-foreground"
+      className="accent rounded-2xl duration-150 grid min-h-[40rem] place-items-stretch bg-background text-foreground"
     >
       <article className="flex h-full flex-col items-center justify-evenly gap-5 p-5 sm:flex-row">
         <div className="flex flex-col items-center justify-center sm:items-start sm:justify-normal">

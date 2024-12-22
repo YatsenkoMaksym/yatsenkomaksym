@@ -28,17 +28,17 @@ export default function RootLayout({
 }>) {
   return (
     <html suppressHydrationWarning lang="en">
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
-          >
-          <ThemeProvider
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
+      >
+        <ThemeProvider
           attribute="class"
-          >
+        >
           <Navbar />
           {children}
-          <Footer/>
-      </ThemeProvider>
-        </body>
+          <Footer />
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
