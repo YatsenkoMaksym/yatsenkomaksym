@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-10 z-50 w-full flex justify-center">
-      <nav className="outliner z-50 w-1/2 min-w-fit place-items-center overflow-hidden rounded-2xl bg-background px-8 py-5 opacity-80 sm:w-1/3">
+      <nav className="outliner z-50 w-1/2 min-w-fit flex justify-evenly overflow-hidden rounded-2xl bg-background px-8 py-5 opacity-80 sm:w-1/3">
         <motion.ul className="flex flex-row gap-16">
           <motion.li variants={liVariants} whileHover="hover" whileTap="tap">
             <Link href="#main">Main</Link>
